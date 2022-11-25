@@ -1,5 +1,19 @@
 {
   "dependencies": {
+    "com.ut.unityfoundation": "file:../../UnityFoundation/com.ut.unityfoundation",
+    "jp.hadashikick.vcontainer": "1.11.1",
+    "com.unity.nuget.newtonsoft-json": "3.0.2",
+    "com.neuecc.unirx": "7.1.0",
+    "com.neuecc.messagepack": "2.4.35",
+    "com.cysharp.unitask": "2.3.1",
+    "com.cysharp.messagepipe": "1.7.4",
+    "com.cysharp.zstring": "2.4.4",
+    "com.tayx.graphy": "3.0.2",
+    "com.unity.localization": "1.4.2",
+    "com.unity.mobile.notifications": "2.1.0",
+    "com.yasirkula.ingamedebugconsole": "1.5.8",
+    "com.yasirkula.nativeshare": "1.4.7",
+    "com.unity.render-pipelines.universal": "12.1.7",
     "com.unity.collab-proxy": "1.17.6",
     "com.unity.feature.development": "1.0.1",
     "com.unity.feature.vr": "1.0.0",
@@ -45,5 +59,22 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "jp.hadashikick.vcontainer",
+        "com.cysharp.unitask",
+        "com.cysharp.messagepipe",
+        "com.cysharp.zstring",
+        "com.neuecc.unirx",
+        "com.neuecc.messagepack",
+        "com.tayx.graphy",
+        "com.yasirkula.ingamedebugconsole",
+        "com.yasirkula.nativeshare"
+      ]
+    }
+  ]
 }
