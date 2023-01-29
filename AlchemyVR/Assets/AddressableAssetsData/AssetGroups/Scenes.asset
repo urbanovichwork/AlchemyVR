@@ -17,13 +17,13 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 46fe8990fb6a83740b10ed8c0ba85a2f
   m_SerializeEntries:
-  - m_GUID: 3947f09d5fecca44e82dacd4a60e3861
-    m_Address: Game
+  - m_GUID: ddb0c054ab1214b4ba72b724108f1ac5
+    m_Address: LoadScene
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ddb0c054ab1214b4ba72b724108f1ac5
-    m_Address: LoadScene
+  - m_GUID: b787d3ada2a209d47adb853ce2ffc740
+    m_Address: Game
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
