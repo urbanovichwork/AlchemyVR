@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Hourglass_Sand_Bottom
-  m_Shader: {fileID: -6465566751694194690, guid: ce2717aa2700d094ebe6904931562da4,
+  m_Name: LiquidWobbleRed
+  m_Shader: {fileID: -6465566751694194690, guid: 07b4141396e909e43b677050df9d3b4e,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -21,23 +21,7 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _SampleTexture2D_1D7B0E5B_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 4e87079a45ebeec4dbb19ace0120a26e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_5EC06F3B_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 4e87079a45ebeec4dbb19ace0120a26e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_F034F756_Texture_1:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Triplanar_4162C447_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 88c69030baf7952409122dbff1552768, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Triplanar_d779949cb37e2b8e9ce51b3fb44b9a32_Texture_1:
+    - _Main_Texture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -55,19 +39,20 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - InvertFlow: 0
-    - LiquidFill: 0
-    - TimerFill: 1
-    - Vector1_69DC66C: 30
-    - Vector1_7500305: 0.02
-    - Vector1_A0C096A0: 0.5
+    - _Amplitude: 0
+    - _FoamWidth: 0.015
+    - _Foam_Smoothness: 1
+    - _Frequency: 0
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Rim_Power: 0.5
     m_Colors:
-    - Color_E3091B1A: {r: 0.52594274, g: 0, b: 1, a: 0}
-    - Color_FDA61C50: {r: 0.475418, g: 0.1715023, b: 0.7735849, a: 0}
+    - _BottomColor: {r: 0.81960785, g: 0.0000001563278, b: 0, a: 1}
+    - _FoamColor: {r: 0.99215686, g: 0.32046235, b: 0.28627458, a: 1}
+    - _Rim_Color: {r: 0.17426978, g: 0.10791205, b: 0.9150943, a: 1}
+    - _TopColor: {r: 0.7647059, g: 0.17258276, b: 0, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &8584525096410270734
+--- !u!114 &8810189755929128587
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
