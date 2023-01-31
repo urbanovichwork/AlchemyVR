@@ -99,11 +99,11 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
-    - _FoamAmount: 0.2
+    - _FoamAmount: 0.02
     - _FoamCutoff: 1
     - _FoamDepth: 2.87
-    - _FoamScale: 200
-    - _FoamSpeed: 0.005
+    - _FoamScale: 198.11
+    - _FoamSpeed: 0.01
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -113,9 +113,9 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _RippleDensity: 19.17
-    - _RippleHeight: 0.015
-    - _RippleSlimness: 11.92
+    - _RippleDensity: 11.38
+    - _RippleHeight: 0.075
+    - _RippleSlimness: 3.57
     - _RippleSpeed: 2.08
     - _Ripple_Height: 0.25
     - _Smoothness: 0.5
@@ -123,19 +123,19 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _WavesHeight: 0.02
-    - _WavesSpeed: 0.1
+    - _WavesHeight: 0.03
+    - _WavesSpeed: 0.05
     - _WorkflowMode: 1
     - _ZTest: 4
     - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
-    - _BaseColor: {r: 0, g: 0.29411766, b: 0, a: 1}
+    - _BaseColor: {r: 0, g: 0.735849, b: 0.599244, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FoamColor: {r: 0.31843486, g: 0.7169812, b: 0.29423285, a: 1}
-    - _RippleColor: {r: 0, g: 0.254717, b: 0.076366864, a: 1}
+    - _FoamColor: {r: 0.027469505, g: 0.6226415, b: 0, a: 1}
+    - _RippleColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &2761269838026425048
