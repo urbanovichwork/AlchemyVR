@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Initial.unity
     guid: 37735b9b7e85e8e4a8411b6fbb3ff595
-  - enabled: 0
+  - enabled: 1
     path: Assets/AlchemyVR/Scenes/Game.unity
     guid: b787d3ada2a209d47adb853ce2ffc740
   m_configObjects:
