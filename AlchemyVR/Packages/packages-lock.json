@@ -7,6 +7,13 @@
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
+    "com.cysharp.messagepipe.vcontainer": {
+      "version": "1.7.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
     "com.cysharp.unitask": {
       "version": "2.3.3",
       "depth": 0,
@@ -402,6 +409,7 @@
         "com.neuecc.messagepack": "2.4.35",
         "com.cysharp.unitask": "2.3.1",
         "com.cysharp.messagepipe": "1.7.4",
+        "com.cysharp.messagepipe.vcontainer": "1.7.4",
         "com.cysharp.zstring": "2.4.4",
         "com.tayx.graphy": "3.0.2",
         "com.unity.localization": "1.4.2",
