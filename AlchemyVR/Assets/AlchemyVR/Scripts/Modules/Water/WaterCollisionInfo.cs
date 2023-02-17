@@ -25,7 +25,7 @@ namespace UT.AlchemyVR
         public void UpdatePosition()
         {
             var followPos = _follow.position;
-            if (Vector3.Distance(_oldPos, followPos) > 0.1f)
+            if (Vector3.Distance(_oldPos, followPos) > 0.01f)
             {
                 var newPos = new Vector3(followPos.x, _originPos.y, followPos.z);
                 Info.UpdatePosition(newPos);
